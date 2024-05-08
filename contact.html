@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Golden Mountain Doodles</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta
+      name="description"
+      content="Beautiful Bernedoodle Puppies available in Corona de Tucson!" />
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="body">
+    <div class="hero">
+      <div
+        data-collapse="medium"
+        data-animation="default"
+        data-duration="400"
+        data-doc-height="1"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        class="nav w-nav">
+        <div class="nav-inner">
+          <nav class="nav-menu-2 w-nav-menu hide">
+            <a href="about.html" class="nav-link w-nav-link">ABOUT US</a>
+            <a href="maggie.html" class="nav-link w-nav-link">MEET MAGGIE</a>
+          </nav>
+          <a href="index.html" class="brand w-nav-brand">
+            <img src="images/logo.jpg" width="120" alt="GMD Logo" />
+          </a>
+          <nav class="nav-menu-2 w-nav-menu hide">
+            <a href="faq.html" class="nav-link w-nav-link">FAQ</a>
+            <a href="#" class="nav-link w-nav-link">CONTACT US</a>
+          </nav>
+          <div class="menu-button w-nav-button">
+            <div class="menu-icon w-icon-nav-menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section center">
+      <div class="hero-content scroll-element js-scroll fade-in-bottom">
+        <h1 class="heading-3">Contact Us</h1>
+        <h3 class="hero-subhead">Learn about our puppies</h3>
+        <a href="#" class="button w-button">JOIN OUR EMAIL LIST</a>
+      </div>
+    </div>
+    <div class="section wide">
+      <form name="form" action="thanks.html" method="get" class="wrap">
+        <fieldset>
+          <h4 class="personal-info">Personal Information</h4>
+          <div class="form-box">
+            <label for="name">Full Name* </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required="required"
+              pattern="[A-Za-z]{5+}"
+              autocomplete="name"
+              class="w-input" />
+          </div>
+
+          <div class="form-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@example.com"
+              class="w-input" />
+          </div>
+
+          <div class="form-box">
+            <label for="phone">Phone*</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required="required"
+              placeholder="Example 123-456-7890"
+              class="w-input" />
+          </div>
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend class="personal-info">Optional Information</legend>
+          <div>Do you want a puppy? <em>(Choose one)</em></div>
+          <div>
+            <label for="yes">Immediately</label
+            ><input type="radio" id="yes" name="danger" value="yes" checked />
+          </div>
+          <div>
+            <label for="maybe">Future</label
+            ><input type="radio" id="maybe" name="danger" value="maybe" />
+          </div>
+          <div>
+            <label for="no">Possibly</label
+            ><input type="radio" id="no" name="danger" value="no" />
+          </div>
+          <br />
+          <div class="form-box">
+            <label for="start">Your Birthdate:</label>
+            <input
+              type="date"
+              id="birthday"
+              name="birthday"
+              value="2015-01-01"
+              min="1920-01-01"
+              max="2024-01-01"
+              class="w-input" />
+          </div>
+
+          <div class="form-box">
+            <label for="colors">Prefered color:</label>
+            <input list="type" id="colors" name="colors" class="w-input" />
+            <datalist id="type">
+              <option value="Black"></option>
+              <option value="Black and brown"></option>
+              <option value="Black and white"></option>
+              <option value="Tri-color (white, black, and brown)"></option>
+            </datalist>
+          </div>
+
+          <br />
+          <div class="form-box">
+            <label for="selectregion">
+              <select
+                name="region"
+                id="selectregion"
+                onchange="selectRegion()"
+                class="w-input">
+                <option value="" disabled selected>
+                  Select prefered puppy
+                </option>
+                <option value="Preston">Preston</option>
+                <option value="Sprigs">Sprigs</option>
+                <option value="Haven">Haven</option>
+                <option value="Haven">No preference</option>
+              </select></label
+            >
+          </div>
+
+          <div class="form-box">
+            <label for="info">Questions, comments:</label>
+
+            <textarea
+              id="info"
+              name="info"
+              rows="5"
+              cols="33"
+              class="w-input"
+              placeholder="Type here..."></textarea>
+          </div>
+        </fieldset>
+        <br />
+        <input
+          class="button w-button"
+          id="submitBtn"
+          type="submit"
+          value="Submit" />
+      </form>
+    </div>
+    <div id="download" class="section wide purple">
+      <div
+        style="
+          -webkit-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          -moz-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          -ms-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+        "
+        class="wrap">
+        <h2>Ready to get started?</h2>
+        <div class="button-wrap">
+          <a href="#" class="button w-button">Sign up for Updates</a>
+          <a href="#" class="button contact w-button">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="section wide">
+      <div
+        style="
+          -webkit-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          -moz-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          -ms-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+          transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
+            rotateY(0) rotateZ(0) skew(0, 0);
+        "
+        class="wrap">
+        <h2>Get updates from GMD</h2>
+        <p class="black-text">
+          New litters coming, tips, and Bernedoodle advice
+        </p>
+        <div class="form-block w-form">
+          <form
+            id="email-form"
+            name="email-form"
+            data-name="Email Form"
+            method="get"
+            class="form-2"
+            data-wf-page-id="660c51dccb8686f1deaaad81"
+            data-wf-element-id="538f9bd6-8ca5-4ea7-b7d3-6a7d798b371d">
+            <input
+              class="input w-input"
+              maxlength="256"
+              name="email-2"
+              data-name="Email 2"
+              placeholder="Enter your email"
+              type="text"
+              id="email-2"
+              required="" />
+            <input
+              type="submit"
+              data-wait="Please wait..."
+              class="button form-button w-button"
+              value="Subscribe" />
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper"></div>
+    </div>
+    <div class="footer">
+      <div class="wrap">
+        <img
+          src="https://assets-global.website-files.com/660c51dbcb8686f1deaaad0f/660c6e3e3d82b6a578bca8c4_GMD%20(1).png"
+          width="136"
+          alt=""
+          class="image-6" />
+        <div class="footer-list">
+          <a href="#" class="footer-link">Email</a>
+          <a href="#" class="footer-link">Instagram</a>
+          <a href="#" class="footer-link">Facebook</a>
+          <a href="#" class="footer-link">Twitter</a>
+        </div>
+        <p>© Golden Mountain Doodles 2024</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
