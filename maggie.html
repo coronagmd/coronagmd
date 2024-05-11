@@ -29,32 +29,41 @@
         data-easing2="ease"
         role="banner"
         class="nav w-nav">
+        <a href="index.html" class="brand w-nav-brand">
+          <img src="images/logo.jpg" width="120" alt="GMD Logo" />
+        </a>
+        <div class="menu-button w-nav-button">
+          <div
+            class="menu-icon w-icon-nav-menu mobile-nav-toggle"
+            aria-controls="dropdown-nav"
+            aria-expanded="false"
+            role="button">
+            <span class="sr-only">Menu</span>
+          </div>
+        </div>
         <div class="nav-inner">
-          <nav class="nav-menu-2 w-nav-menu hide">
+          <nav
+            class="nav-menu-2 w-nav-menu dropdown-nav"
+            data-visible="false"
+            id="dropdown-nav">
             <a href="about.html" class="nav-link w-nav-link">ABOUT US</a>
-            <a href="#" class="nav-link w-nav-link">MEET MAGGIE</a>
-          </nav>
-          <a href="index.html" class="brand w-nav-brand">
-            <img src="images/logo.jpg" width="120" alt="GMD Logo" />
-          </a>
-          <nav class="nav-menu-2 w-nav-menu hide">
+            <a href="maggie.html" class="nav-link w-nav-link">MEET MAGGIE</a>
             <a href="faq.html" class="nav-link w-nav-link">FAQ</a>
             <a href="contact.html" class="nav-link w-nav-link">CONTACT US</a>
           </nav>
-          <div class="menu-button w-nav-button">
-            <div class="menu-icon w-icon-nav-menu"></div>
-          </div>
         </div>
       </div>
     </div>
-
     <div class="section center">
       <div class="hero-content scroll-element js-scroll fade-in-bottom">
         <h1 class="heading-3">MEET MAGGIE</h1>
         <h3 class="hero-subhead">A wonderful dog</h3>
         <a href="#" class="button w-button">JOIN OUR EMAIL LIST</a>
       </div>
-      <img class="hero-image" src="images/bigger.jpg" />
+      <img
+        class="hero-image"
+        src="images/bigger.jpg"
+        alt="Maggie as a grown dog" />
     </div>
 
     <div class="section">
@@ -137,8 +146,7 @@
           <img src="images/baby6.jpg" width="341" alt="" class="image-2" />
         </div>
       </div>
-
-
+    </div>
 
     <div id="download" class="section wide purple">
       <div
