@@ -56,7 +56,11 @@
       </div>
     </div>
     <div class="section wide">
-      <form name="form" action="thanks.html" method="get" class="wrap">
+      <form
+        name="form"
+        action="https://formsubmit.co/coronagmdoodle@gmail.com"
+        method="POST"
+        class="wrap">
         <fieldset>
           <h4 class="personal-info">Personal Information</h4>
           <div class="form-box">
@@ -99,15 +103,20 @@
           <div>Do you want a puppy? <em>(Choose one)</em></div>
           <div>
             <label for="yes">Immediately</label
-            ><input type="radio" id="yes" name="danger" value="yes" checked />
+            ><input
+              type="radio"
+              id="yes"
+              name="wantapuppy"
+              value="immediately"
+              checked />
           </div>
           <div>
             <label for="maybe">Future</label
-            ><input type="radio" id="maybe" name="danger" value="maybe" />
+            ><input type="radio" id="maybe" name="wantapuppy" value="future" />
           </div>
           <div>
             <label for="no">Possibly</label
-            ><input type="radio" id="no" name="danger" value="no" />
+            ><input type="radio" id="no" name="wantapuppy" value="possibly" />
           </div>
           <br />
           <div class="form-box">
@@ -137,7 +146,7 @@
           <div class="form-box">
             <label for="selectregion">
               <select
-                name="region"
+                name="puppy_name"
                 id="selectregion"
                 onchange="selectRegion()"
                 class="w-input">
@@ -157,7 +166,7 @@
 
             <textarea
               id="info"
-              name="info"
+              name="questions_comments"
               rows="5"
               cols="33"
               class="w-input"
@@ -172,6 +181,7 @@
           value="Submit" />
       </form>
     </div>
+
     <div id="download" class="section wide purple">
       <div
         style="
@@ -233,6 +243,7 @@
               class="button form-button w-button"
               value="Subscribe" />
           </form>
+
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
