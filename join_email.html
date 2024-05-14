@@ -31,7 +31,7 @@
         class="nav w-nav">
         <div class="nav-inner">
           <nav class="nav-menu-2 w-nav-menu hide">
-            <a href="#" class="nav-link w-nav-link">ABOUT US</a>
+            <a href="about.html" class="nav-link w-nav-link">ABOUT US</a>
             <a href="maggie.html" class="nav-link w-nav-link">MEET MAGGIE</a>
           </nav>
           <a href="index.html" class="brand w-nav-brand">
@@ -39,7 +39,7 @@
           </a>
           <nav class="nav-menu-2 w-nav-menu hide">
             <a href="faq.html" class="nav-link w-nav-link">FAQ</a>
-            <a href="contact.html" class="nav-link w-nav-link">CONTACT US</a>
+            <a href="#" class="nav-link w-nav-link">CONTACT US</a>
           </nav>
           <div class="menu-button w-nav-button">
             <div class="menu-icon w-icon-nav-menu"></div>
@@ -47,42 +47,53 @@
         </div>
       </div>
     </div>
+
     <div class="section center">
       <div class="hero-content scroll-element js-scroll fade-in-bottom">
-        <h1 class="heading-3">A LITTLE ABOUT US</h1>
-        <h3 class="hero-subhead">We love Bernedoodles</h3>
-        <a href="join_email.html" class="button w-button"
-          >JOIN OUR EMAIL LIST</a
-        >
+        <h1 class="heading-3">Join our email list</h1>
       </div>
-      <img class="hero-image" src="images/april.png" />
+      <img class="hero-image" src="images/maggie1.jpeg" />
     </div>
+    <div class="section wide">
+      <form
+        name="form"
+        action="https://formsubmit.co/coronagmdoodle@gmail.com"
+        method="POST"
+        class="wrap">
+        <fieldset>
+          <h4 class="personal-info">
+            Get the most updated info <br />on our puppies!
+          </h4>
+          <br />
+          <div class="form-box">
+            <label for="name">Full Name* </label>
+            <input
+              type="text"
+              name="Join_email_list_name"
+              id="name"
+              required="required"
+              pattern="[A-Za-z]{5+}"
+              autocomplete="name"
+              class="w-input" />
+          </div>
 
-    <div class="section">
-      <div id="features" class="feature-wrap">
-        <div
-          style="
-            -webkit-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1)
-              rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-            -moz-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
-              rotateY(0) rotateZ(0) skew(0, 0);
-            -ms-transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
-              rotateY(0) rotateZ(0) skew(0, 0);
-            transform: translate3d(0, 40px, 0) scale3d(1, 1, 1) rotateX(0)
-              rotateY(0) rotateZ(0) skew(0, 0);
-          "
-          class="feature-content">
-          <div class="title">Our family loves dogs</div>
-          <h2 class="black">Our journey started in 2001</h2>
-          <p>
-            We got our first dog shortly after we were married. Our children
-            grew up with dogs.
-          </p>
-        </div>
-        <div class="feature-image">
-          <img src="images/baby.jpg" width="341" alt="" class="image-2" />
-        </div>
-      </div>
+          <div class="form-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="Join_email_list_email"
+              placeholder="email@example.com"
+              class="w-input" />
+          </div>
+        </fieldset>
+
+        <input
+          class="button w-button"
+          id="submitBtn"
+          type="submit"
+          value="Submit" />
+      </form>
     </div>
 
     <div id="download" class="section wide purple">
@@ -146,6 +157,7 @@
               class="button form-button w-button"
               value="Subscribe" />
           </form>
+
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
