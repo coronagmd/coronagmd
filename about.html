@@ -29,21 +29,28 @@
         data-easing2="ease"
         role="banner"
         class="nav w-nav">
+        <a href="index.html" class="brand w-nav-brand">
+          <img src="images/logo.jpg" width="120" alt="GMD Logo" />
+        </a>
+        <div class="menu-button w-nav-button">
+          <div
+            class="menu-icon w-icon-nav-menu mobile-nav-toggle"
+            aria-controls="dropdown-nav"
+            aria-expanded="false"
+            role="button">
+            <span class="sr-only">Menu</span>
+          </div>
+        </div>
         <div class="nav-inner">
-          <nav class="nav-menu-2 w-nav-menu hide">
-            <a href="#" class="nav-link w-nav-link">ABOUT US</a>
+          <nav
+            class="nav-menu-2 w-nav-menu dropdown-nav"
+            data-visible="false"
+            id="dropdown-nav">
+            <a href="about.html" class="nav-link w-nav-link">ABOUT US</a>
             <a href="maggie.html" class="nav-link w-nav-link">MEET MAGGIE</a>
-          </nav>
-          <a href="index.html" class="brand w-nav-brand">
-            <img src="images/logo.jpg" width="120" alt="GMD Logo" />
-          </a>
-          <nav class="nav-menu-2 w-nav-menu hide">
             <a href="faq.html" class="nav-link w-nav-link">FAQ</a>
             <a href="contact.html" class="nav-link w-nav-link">CONTACT US</a>
           </nav>
-          <div class="menu-button w-nav-button">
-            <div class="menu-icon w-icon-nav-menu"></div>
-          </div>
         </div>
       </div>
     </div>
