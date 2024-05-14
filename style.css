@@ -41,7 +41,9 @@ audio:not([controls]) {
 template {
   display: none;
 }
-
+.sr-only {
+  visibility: hidden;
+}
 a {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -2008,8 +2010,8 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
-  .hide {
-    display: none;
+  .nav {
+    display: block;
   }
 
   .w-nav[data-collapse='medium'] .w-nav-button {
@@ -2905,7 +2907,22 @@ a {
     padding-left: 0;
     padding-right: 0;
   }
+  .nav {
+    display: block;
+  }
 
+  .w-nav-link {
+    display: block;
+  }
+  .nav-link {
+    margin-bottom: 0px;
+  }
+  .nav-inner {
+    background-color: var(--dark-blue);
+  }
+  .dropdown-nav[data-visible='true'] {
+    display: none;
+  }
   .nav,
   .nav-inner {
     width: 100vw;
@@ -2981,10 +2998,10 @@ a {
   }
 
   .menu-icon {
-    background-color: transparent;
-    background-image: url(images/menu-icon.jpg);
+    background-image: url(images/menu-icon.png);
     background-repeat: no-repeat;
-
+    margin-top: 24px;
+    margin-right: 20px;
     height: 40px;
     width: 40px;
   }
@@ -3009,6 +3026,7 @@ a {
 
   .heading-3 {
     font-size: 8vw;
+    padding-top: 30px;
   }
 }
 
