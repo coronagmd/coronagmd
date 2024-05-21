@@ -2778,7 +2778,16 @@ a {
 
 .footer-list {
   padding-top: 29px;
-  padding-bottom: 29px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright {
+  margin: 0;
+  line-height: 20px;
+  color: #6b6b6b;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px;
 }
 
 .text-block-2 {
