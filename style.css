@@ -2558,7 +2558,7 @@ a {
   text-align: center;
 }
 .eggplant p {
-  color: var(--eggplant);
+  color: #1b1b1b;
   font-size: 20px;
   font-family: Raleway, sans-serif;
   padding: 10px;
@@ -2658,7 +2658,7 @@ a {
 }
 
 .black-text {
-  color: #000;
+  color: #1b1b1b;
 }
 
 .hero-content {
@@ -2757,6 +2757,7 @@ a {
 }
 
 .footer {
+  background-color: #1b1b1b;
   justify-content: center;
   align-items: center;
   display: flex;
