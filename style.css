@@ -2700,8 +2700,8 @@ a {
   border: 1px #000;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  width: 90vw;
+  /* align-items: center; */
+  /* width: 90vw; */
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding-left: 10vw;
