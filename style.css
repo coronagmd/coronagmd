@@ -310,6 +310,17 @@ img {
   text-align: left;
   font-family: Raleway, sans-serif;
   font-weight: 200;
+  color: var(--black);
+}
+.Bernedoodle-colors {
+  text-align: left;
+}
+.faq-lifespan {
+  text-align: left;
+  text-indent: 25px;
+}
+.flexbox {
+  display: flex;
 }
 .dog-paws {
   display: flex;
@@ -2290,8 +2301,9 @@ a {
 }
 
 .section.wide.img {
-  background-color: var(--dark-blue);
+  background-color: var(--white);
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .section.wide.purple {
@@ -2408,6 +2420,7 @@ a {
   max-width: 450px;
   padding-left: 4vw;
   padding-right: 4vw;
+  animation: fade-in-bottom 2s ease-in-out both;
 }
 
 .feature-content.mid {
@@ -2694,6 +2707,7 @@ a {
   padding-left: 10vw;
   padding-right: 10vw;
   display: flex;
+  animation: fade-in-bottom 2s ease-in-out both;
 }
 
 .feature-wrap.reverse {
