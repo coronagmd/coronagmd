@@ -306,6 +306,18 @@ img {
   color: black;
   font-weight: 400;
 }
+.faq-header {
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+}
+.dog-paws {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dog-paws img {
+  width: 10%;
+}
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -2556,7 +2568,7 @@ a {
 .eggplant {
   margin: 0 auto;
   text-align: center;
-  max-width: 60%;
+  max-width: 80%;
 }
 .eggplant p {
   color: #1b1b1b;
@@ -2728,6 +2740,7 @@ a {
   font-family: Raleway, sans-serif;
   font-size: 30px;
   line-height: 44px;
+  font-weight: 400;
 }
 
 .bottom-image-wrap {
