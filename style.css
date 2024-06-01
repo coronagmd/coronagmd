@@ -2695,7 +2695,9 @@ a {
   padding-right: 10vh;
   position: relative;
 }
-
+.overflow {
+  overflow: hidden;
+}
 .feature-wrap {
   border: 1px #000;
   flex-direction: row;
