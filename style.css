@@ -321,6 +321,19 @@ img {
 }
 .flexbox {
   display: flex;
+  align-items: center;
+}
+.puppy-title {
+  font-size: 30px;
+  padding: 40px;
+  font-family: Raleway, sans-serif;
+}
+.litters-coming-subtitle {
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  padding: 20px;
 }
 .dog-paws {
   display: flex;
