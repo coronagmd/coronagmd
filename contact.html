@@ -47,32 +47,35 @@
             data-visible="true"
             id="dropdown-nav">
             <a
-              href="https://coronagmdoodle.com/about"
+              href="https://coronagmdoodle.com/liters_coming"
               class="nav-link w-nav-link"
-              >ABOUT US</a
+              >NEW LITTERS</a
+            ><a
+              href="https://coronagmdoodle.com/faq"
+              class="nav-link w-nav-link"
+              >FAQ</a
             >
             <a
               href="https://coronagmdoodle.com/maggie"
               class="nav-link w-nav-link"
               >MEET MAGGIE</a
-            >
-            <a
-              href="https://coronagmdoodle.com/liters_coming"
+            ><a
+              href="https://coronagmdoodle.com/about"
               class="nav-link w-nav-link"
-              >NEW LITTERS</a
+              >ABOUT US</a
             >
-            <a href="https://coronagmdoodle.com/faq" class="nav-link w-nav-link"
-              >FAQ</a
-            >
-            <a href="/" class="nav-link w-nav-link">CONTACT US</a>
+
+            <a href="" class="nav-link w-nav-link">CONTACT US</a>
           </nav>
         </div>
       </div>
     </div>
+
     <div class="section center">
       <div class="hero-content scroll-element js-scroll fade-in-bottom">
-        <h1 class="heading-3">Contact Us</h1>
+        <h1 class="heading-3">CONTACT US</h1>
       </div>
+      <img class="hero-image" src="images/maggie1.jpeg" />
     </div>
     <div class="section wide">
       <form
@@ -81,12 +84,16 @@
         method="POST"
         class="wrap">
         <fieldset>
-          <h4 class="personal-info">Personal Information</h4>
+          <h4 class="personal-info">
+            Send us a question or comment and <br />
+            we'll get right back to you!
+          </h4>
+          <br />
           <div class="form-box">
             <label for="name">Full Name</label>
             <input
               type="text"
-              name="name"
+              name="Join_email_list_name"
               id="name"
               required="required"
               pattern="[A-Za-z]{5+}"
@@ -99,24 +106,20 @@
             <input
               type="email"
               id="email"
-              name="email"
+              name="Join_email_list_email"
               placeholder="email@example.com"
               class="w-input" />
           </div>
+          <label for="info">Questions, comments:</label>
 
-          <div class="form-box">
-            <label for="info">Questions, comments:</label>
-
-            <textarea
-              id="info"
-              name="questions_comments"
-              rows="5"
-              cols="33"
-              class="w-input"
-              placeholder="Type here..."></textarea>
-          </div>
+          <textarea
+            id="info"
+            name="questions_comments"
+            rows="5"
+            cols="33"
+            class="w-input"
+            placeholder="Type here..."></textarea>
         </fieldset>
-        <br />
         <input
           type="hidden"
           name="_next"
@@ -129,16 +132,6 @@
       </form>
     </div>
 
-    <div id="download" class="section wide purple"></div>
-    <div class="section wide">
-      <div class="wrap">
-        <h2>Get updates from GMD</h2>
-        <p class="black-text">
-          New litters coming, tips, and Bernedoodle advice
-        </p>
-      </div>
-      <div class="wrapper"></div>
-    </div>
     <div class="footer">
       <div class="wrap">
         <img
@@ -146,9 +139,10 @@
           width="136"
           alt=""
           class="image-6" />
+
         <div class="footer-list">
           <p class="footer-copyright">© Golden Mountain Doodles 2024</p>
-          <a href="https://coronagmdoodle.com/question" class="footer-link"
+          <a href="https://coronagmdoodle.com/contact" class="footer-link"
             >Email</a
           >
           <a
