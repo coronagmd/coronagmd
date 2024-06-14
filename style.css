@@ -60,6 +60,9 @@ a:hover {
   animation: fade-in-bottom 2s ease-in-out both;
 }
 
+.fade-in-bottom {
+  animation: fade-in-bottom 2s ease-in-out both;
+}
 p.dim-grey {
   color: var(--medium-violet-red);
 }
@@ -297,6 +300,31 @@ img {
   max-width: 100%;
   display: inline-block;
   padding: 0.5rem;
+}
+.home-headline {
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 200;
+}
+.home-paragraph {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.paragraph-center {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+.image-center {
+  text-align: center;
+}
+.image-band {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .geneology-header {
   font-family: Raleway, sans-serif;
@@ -927,6 +955,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .image-band {
+    width: auto;
+  }
   .w-container {
     max-width: 728px;
   }
@@ -2793,14 +2824,16 @@ a {
   border: 1px #000;
   flex-direction: row;
   justify-content: space-around;
-  /* align-items: center; */
-  /* width: 90vw; */
+  align-items: center;
+  width: 90vw;
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding-left: 10vw;
   padding-right: 10vw;
   display: flex;
   animation: fade-in-bottom 2s ease-in-out both;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
 .feature-wrap.reverse {
@@ -2824,7 +2857,7 @@ a {
   border: 1px #000;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  /* width: 50vw; */
   display: flex;
 }
 
