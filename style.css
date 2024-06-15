@@ -403,7 +403,7 @@ p.faq {
   font-family: Raleway, sans-serif;
 }
 .litters-coming-subtitle {
-  color: #fff;
+  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -415,10 +415,30 @@ p.faq {
 .dog-paws img {
   width: 10%;
 }
-
+.spotlights {
+  display: flex;
+  border: var(--eggplant) 5px solid;
+  height: 391px;
+  margin: 2px;
+}
+.spotlight-details {
+  width: 280px;
+  padding: 40px;
+}
+.spotlight-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.spolight-image {
+  width: 220px;
+}
+.temporary-spot-img {
+  width: 240px;
+}
 .container {
-  width: 20rem;
-  height: 25rem;
+  width: 15rem;
+  height: 20rem;
   position: relative;
   overflow: hidden;
 }
@@ -430,7 +450,7 @@ p.faq {
 
 .pic-container,
 .pic,
-.container {
+.pic1 .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -442,7 +462,8 @@ ul.Bernedoodle-colors {
 ul.Bernedoodle-colors li {
   vertical-align: bottom;
 }
-.pic {
+.pic,
+.pic1 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -460,10 +481,13 @@ ul.Bernedoodle-colors li {
   display: flex;
   gap: 3rem;
   margin-bottom: 40px;
+  margin-left: 60px;
 }
 
 .btn-left,
-.btn-right {
+.btn-right,
+.btn-left1,
+.btn-right1 {
   cursor: pointer;
   background-color: transparent;
   color: var(--eggplant);
@@ -475,7 +499,9 @@ ul.Bernedoodle-colors li {
 }
 
 .btn-left:hover,
-.btn-right:hover {
+.btn-right:hover,
+.btn-left1:hover,
+.btn-right1:hover {
   transform: scale(1.4);
   opacity: 100%;
 }
@@ -2914,6 +2940,9 @@ a {
 
 .black {
   color: #000;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .hero-subhead {
