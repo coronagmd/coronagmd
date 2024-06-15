@@ -77,6 +77,7 @@ p.dim-grey {
 .sixty-percent {
   max-width: 60%;
 }
+
 .wrap.scrolled {
   opacity: 1;
 }
@@ -325,6 +326,44 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.about-us {
+  width: 80%;
+  margin: 0 auto;
+}
+.about-us-words {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.about-us-float-right {
+  float: right;
+  width: 500px;
+  padding: 20px;
+  margin-left: 30px;
+}
+.about-us-float-left {
+  float: left;
+  width: 500px;
+  padding: 20px;
+  margin-right: 30px;
+}
+.about-us-pic-vid {
+  display: flex;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+.about-us-vid {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+.about-us-baby {
+  display: flex;
+  width: 80%;
+}
+.about-us-padding {
+  padding: 20px;
 }
 .geneology-header {
   font-family: Raleway, sans-serif;
@@ -955,6 +994,15 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .about-us-pic-vid {
+    display: block;
+    margin: 0 auto;
+  }
+  .about-us-vid {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
   .image-band {
     width: auto;
   }
@@ -2718,7 +2766,10 @@ a {
 }
 
 .image-2 {
-  flex: none;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .button-wrap {
