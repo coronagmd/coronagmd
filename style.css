@@ -1102,6 +1102,12 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+  .about-us-baby {
+    display: block;
+  }
+  .image-2 {
+    margin: 0 auto;
+  }
   .w-hidden-main,
   .w-hidden-medium {
     display: inherit !important;
@@ -2795,7 +2801,6 @@ a {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  margin-left: 30px;
 }
 
 .button-wrap {
