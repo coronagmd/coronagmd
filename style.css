@@ -455,6 +455,7 @@ img {
   font-family: Raleway, sans-serif;
   font-weight: 200;
   color: var(--black);
+  margin-top: 80px;
 }
 p.faq {
   font-size: 20px;
@@ -469,6 +470,9 @@ p.faq {
 .faq-lifespan {
   text-align: left;
   text-indent: 25px;
+}
+.faq-maggie-img {
+  margin: 40px;
 }
 .flexbox {
   display: flex;
@@ -534,7 +538,8 @@ p.faq {
 }
 ul.Bernedoodle-colors {
   margin-bottom: 50px;
-  list-style-image: url(images/paw-tiny.jpg);
+  list-style-image: url(images/paw-tiny.ico);
+  list-style-position: inside;
 }
 ul.Bernedoodle-colors li {
   vertical-align: bottom;
