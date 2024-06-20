@@ -372,7 +372,84 @@ img {
   padding: 50px;
   color: black;
   font-weight: 400;
+  line-height: 1;
 }
+.maggie-gen {
+  border: #000 10px solid;
+  margin-bottom: 50px;
+}
+.maggie-para {
+  width: 80%;
+}
+
+.carousel {
+  margin-top: 30px;
+  display: flex;
+  gap: 0.7em;
+  padding: 8px;
+
+  /* adds scrolling for the element: */
+  overflow-x: scroll;
+  /* removes the horizontal scrollbar: */
+  scrollbar-width: none;
+}
+
+.carousel--item {
+  /* carousel item should have min-width declared: */
+  min-width: 360px;
+  /* carousel item should have defined height: */
+  height: 540px;
+
+  border-radius: 0.4em;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.85;
+  transition: 300ms ease;
+}
+
+.carousel--item:hover {
+  opacity: 1;
+  scale: 1.01;
+  transform-origin: bottom;
+}
+
+.carousel--item:focus-visible {
+  opacity: 1;
+  scale: 1.01;
+  transform-origin: bottom;
+  outline: 2px solid orange;
+  outline-offset: 2px;
+}
+
+.one {
+  background-image: url('images/baby6.jpg');
+}
+
+.two {
+  background-image: url('images/baby3.jpg');
+}
+
+.three {
+  background-image: url('images/baby4.jpg');
+}
+
+.four {
+  background-image: url('images/baby5.jpg');
+}
+
+.five {
+  background-image: url('images/baby2.jpg');
+}
+.six {
+  background-image: url('images/maggie3.jpg');
+}
+.seven {
+  background-image: url('images/maggie4.jpg');
+}
+.eight {
+  background-image: url('images/maggie8.jpg');
+}
+
 .faq-header {
   text-align: left;
   font-family: Raleway, sans-serif;
