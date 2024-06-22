@@ -303,10 +303,10 @@ img {
   padding: 0.5rem;
 }
 .home-headline {
-  font-family: Raleway, sans-serif;
+  font-family: Cinzel, sans-serif;
   font-size: 40px;
   color: #000;
-  font-weight: 200;
+  font-weight: 400;
 }
 .home-paragraph {
   width: 80%;
@@ -366,7 +366,7 @@ img {
   padding: 20px;
 }
 .geneology-header {
-  font-family: Raleway, sans-serif;
+  font-family: Cinzel, sans-serif;
   text-align: center;
   font-size: 8vh;
   padding: 50px;
@@ -457,6 +457,9 @@ img {
   color: var(--black);
   margin-top: 80px;
 }
+.faq-good-logo {
+  width: 20%;
+}
 p.faq {
   font-size: 20px;
   text-align: left;
@@ -471,6 +474,9 @@ p.faq {
   text-align: left;
   text-indent: 25px;
 }
+.faq-maggie-sitting {
+  width: 60%;
+}
 .faq-maggie-img {
   margin: 40px;
 }
@@ -483,11 +489,17 @@ p.faq {
   padding: 40px;
   font-family: Raleway, sans-serif;
 }
+.litter-header {
+  font-family: Cinzel, sans-serif;
+  font-size: 8vh;
+  font-weight: 400;
+}
 .litters-coming-subtitle {
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 30px;
+  line-height: 1.2;
 }
 .dog-paws {
   display: flex;
@@ -2849,6 +2861,12 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.home-wrap {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+}
 .waitlist-widen {
   width: 35%;
 }
@@ -2988,7 +3006,7 @@ a {
   border: 1px #000;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   width: 90vw;
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -3028,6 +3046,14 @@ a {
 .black {
   color: #000;
   font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-headline {
+  font-family: Cinzel, sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
