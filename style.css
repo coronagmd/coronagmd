@@ -506,6 +506,7 @@ p.faq {
 }
 .litter-header {
   font-family: Cinzel, sans-serif;
+  line-height: 1;
   font-size: 8vh;
   font-weight: 400;
 }
@@ -2969,7 +2970,8 @@ a {
 
 .nav-link:hover {
   box-shadow: inset 0 -5px 0 0 var(--eggplant);
-  color: var(--dark-blue);
+  color: var(--light-grey);
+  font-size: 16px;
 }
 
 .nav-menu {
