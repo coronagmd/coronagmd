@@ -313,6 +313,14 @@ img {
   display: block;
   margin: auto;
 }
+.home-image {
+  width: 400px;
+}
+.home-image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .paragraph-center {
   text-align: center;
   margin: 20px;
@@ -456,14 +464,21 @@ img {
   font-weight: 200;
   color: var(--black);
   margin-top: 80px;
+  text-decoration: underline;
 }
 .faq-good-logo {
   width: 20%;
+}
+.faq-good-logo:hover,
+.faq-good-logo:focus {
+  transform: translateY(-0.25em);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 p.faq {
   font-size: 20px;
   text-align: left;
 }
+
 .Bernedoodle-colors {
   text-align: left;
 }
@@ -1273,6 +1288,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .home-image {
+    width: 80%;
+  }
   .w-container {
     max-width: none;
   }
@@ -2465,6 +2483,7 @@ textarea.w-select {
 }
 
 h1 {
+  font-family: Raleway, sans-serif;
   color: #fff;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -2474,6 +2493,7 @@ h1 {
 }
 
 h2 {
+  font-family: Raleway, sans-serif;
   color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -2483,15 +2503,17 @@ h2 {
 }
 
 h3 {
-  color: #6b6b6b;
+  font-family: Raleway, sans-serif;
+  color: #000;
   margin-top: 10px;
   margin-bottom: 25px;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 40px;
 }
 
 h4 {
+  font-family: Raleway, sans-serif;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
