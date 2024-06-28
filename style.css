@@ -1289,6 +1289,13 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .spotlight-details {
+    width: 80%;
+  }
+  .spotlights {
+    display: block;
+    height: auto;
+  }
   .home-image {
     width: 80%;
   }
