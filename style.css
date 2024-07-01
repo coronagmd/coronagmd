@@ -309,6 +309,11 @@ img {
   display: block;
   margin-bottom: 50px;
 }
+.facebook-btn:hover,
+.facebook-btn:active {
+  transform: translateY(-0.25em);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .home-headline {
   font-family: Cinzel, sans-serif;
   font-size: 40px;
@@ -324,6 +329,7 @@ img {
   width: 80%;
   display: block;
   margin: auto;
+  font-size: 20px;
 }
 .home-image {
   width: 400px;
@@ -339,10 +345,12 @@ img {
   margin: 0 auto;
   /* margin-top: 10px;
   margin-bottom: 25px; */
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 40px;
   padding-bottom: 40px;
+  width: 70%;
+  text-align: center;
 }
 .home-section {
   width: 80%;
@@ -354,6 +362,18 @@ img {
 .home-section > ul > li {
   font-size: 20px;
   line-height: 1.5;
+}
+.home-gooddog-section {
+  text-align: center;
+  margin: 30px;
+}
+.home-gooddog-badge {
+  width: 20%;
+}
+.home-gooddog-badge:hover,
+.home-gooddog-badge:active {
+  transform: translateY(-0.25em);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .paragraph-center {
   text-align: center;
@@ -498,7 +518,6 @@ img {
   font-weight: 200;
   color: var(--black);
   margin-top: 80px;
-  text-decoration: underline;
 }
 .faq-good-logo {
   width: 20%;
@@ -528,6 +547,29 @@ p.faq {
 }
 .faq-maggie-img {
   margin: 40px;
+}
+.faq-puppy-book {
+  width: 20%;
+}
+.faq-book-recomend {
+  border: var(--eggplant) 15px solid;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.faq-margin {
+  margin-bottom: 60px;
+}
+.faq-informed {
+  padding: 25px;
+  font-size: 35px;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+.faq-p {
+  font-size: 25px;
 }
 .flexbox {
   display: flex;
