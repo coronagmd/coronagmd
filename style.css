@@ -1290,7 +1290,7 @@ textarea.w-select {
 
 @media screen and (max-width: 479px) {
   .litter-header {
-    font-size: 80%;
+    font-size: 40px;
   }
   .spotlight-details {
     width: 80%;
