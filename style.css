@@ -571,6 +571,14 @@ p.faq {
 .faq-p {
   font-size: 25px;
 }
+.faq-badge {
+  width: 300px;
+}
+.faq-badge:hover,
+.faq-badge:active {
+  transform: translateY(-0.25em);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .flexbox {
   display: flex;
   align-items: center;
@@ -592,6 +600,10 @@ p.faq {
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
+}
+.litter-reserve-btn {
+  width: 400px;
+  margin: 20px;
 }
 .dog-paws {
   display: flex;
