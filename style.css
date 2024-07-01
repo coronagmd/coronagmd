@@ -619,8 +619,8 @@ p.faq {
   margin: 2px;
 }
 .spotlight-details {
-  width: 280px;
-  padding: 40px;
+  width: 200px;
+  padding: 10px;
 }
 .spotlight-flex {
   display: flex;
