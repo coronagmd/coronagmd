@@ -1383,6 +1383,13 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .gallery-float-p {
+    line-height: 1;
+    font-size: 18px;
+  }
+  .gallery-head-div {
+    display: none;
+  }
   .faq-puppy-book {
     width: 80%;
   }
