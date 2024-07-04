@@ -1218,6 +1218,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .faq-puppy-book {
+    width: 40%;
+  }
   .about-us-pic-vid {
     display: block;
     margin: 0 auto;
@@ -1300,6 +1303,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+  .faq-puppy-book {
+    width: 50%;
+  }
   .about-us-baby {
     display: block;
   }
@@ -1377,6 +1383,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .faq-puppy-book {
+    width: 80%;
+  }
   .litter-header {
     font-size: 40px;
   }
@@ -2613,7 +2622,7 @@ h3 {
 
 h4 {
   font-family: Raleway, sans-serif;
-  color: #fff;
+  color: #000;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 18px;
@@ -3730,5 +3739,112 @@ a {
   .heading-3 {
     font-size: 42px;
     line-height: 56px;
+  }
+}
+.gallery-head-div {
+  text-align: center;
+}
+.gallery-header {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  font-family: Cinzel, sans-serif;
+  font-size: 40px;
+}
+.gallery-container {
+  position: relative;
+}
+.gallery-float-p {
+  position: absolute;
+  background-color: #fff;
+  top: 3px;
+  left: 3px;
+  font-size: 8px;
+  padding: 15px;
+  line-height: 1.3;
+  font-family: Raleway, sans-serif;
+}
+:root {
+  --gap: 4px;
+  --duration-shrink: 0.5s;
+  --duration-expand: 0.25s;
+  --no-duration: 0s;
+}
+
+p {
+  font-family: sans-serif;
+  margin: 1rem;
+}
+
+.js-favs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: var(--gap);
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .js-favs {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+li {
+  transition-property: transform, opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: var(--duration-expand);
+}
+
+li.is-zoomed {
+  transition-duration: var(--duration-shrink);
+}
+
+.is-zoomed li:not(.is-zoomed) {
+  opacity: 0.3;
+}
+
+.gallery-btn {
+  all: initial;
+  display: block;
+  /* aspect-ratio: 2/1;
+  overflow: hidden; */
+  cursor: pointer;
+  width: 100%;
+}
+
+.gallery-btn:focus {
+  outline: none;
+}
+
+li.is-zoomed button,
+.js-favs:not(.is-zoomed) button:focus {
+  outline: 2px solid var(--eggplant);
+  outline-offset: 1px;
+}
+
+.puppy-gallery-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.visually-hidden {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion) {
+  li,
+  li.is-zoomed {
+    transition-duration: var(--no-duration);
   }
 }
