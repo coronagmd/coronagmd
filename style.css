@@ -1303,6 +1303,17 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+  .gallery-head-div {
+    display: none;
+  }
+  .gallery-container {
+    margin-bottom: 50px;
+  }
+  .gallery-float-p {
+    line-height: 0.8;
+    font-size: 15px !important;
+    position: static !important;
+  }
   .faq-puppy-book {
     width: 50%;
   }
@@ -1383,13 +1394,6 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
-  .gallery-float-p {
-    line-height: 1;
-    font-size: 18px;
-  }
-  .gallery-head-div {
-    display: none;
-  }
   .faq-puppy-book {
     width: 80%;
   }
