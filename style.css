@@ -482,15 +482,21 @@ img {
   outline: 2px solid orange;
   outline-offset: 2px;
 }
-
+.zero {
+  background-image: url('images/puppies/maggiezero.jpg');
+}
 .one {
   background-image: url('images/baby6.jpg');
 }
-
+.nat {
+  background-image: url('images/puppies/maggie-with-natalyn.jpg');
+}
 .two {
   background-image: url('images/baby3.jpg');
 }
-
+.newlittermaggie {
+  background-image: url('images/puppies/new-litter.jpg');
+}
 .three {
   background-image: url('images/baby4.jpg');
 }
@@ -510,6 +516,9 @@ img {
 }
 .eight {
   background-image: url('images/maggie8.jpg');
+}
+.nine {
+  background-image: url('images/puppies/maggienine.jpg');
 }
 
 .faq-header {
