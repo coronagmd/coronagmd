@@ -479,9 +479,11 @@ img {
   opacity: 1;
   scale: 1.01;
   transform-origin: bottom;
-  outline: 2px solid orange;
+  outline: 2px solid var(--eggplant);
   outline-offset: 2px;
 }
+
+/* pictures on maggie page */
 .zero {
   background-image: url('images/puppies/maggiezero.jpg');
 }
@@ -519,6 +521,44 @@ img {
 }
 .nine {
   background-image: url('images/puppies/maggienine.jpg');
+}
+
+/* pictures on litters page */
+.carousel-item-one {
+  background-image: url('images/puppies/a.jpg');
+}
+.carousel-item-two {
+  background-image: url('images/puppies/april-and-puppies-crop.jpg');
+}
+.carousel-item-three {
+  background-image: url('images/puppies/q.jpg');
+}
+.carousel-item-four {
+  background-image: url('images/puppies/big-red.jpg');
+}
+.carousel-item-five {
+  background-image: url('images/puppies/mrdarkblue.jpeg');
+}
+.carousel-item-six {
+  background-image: url('images/puppies/pup1.jpg');
+}
+.carousel-item-seven {
+  background-image: url('images/puppies/k.jpg');
+}
+.carousel-item-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.carousel-item-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.carousel-item-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.carousel-item-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.carousel-item-twelve {
+  background-image: url('images/puppies/purple.jpg');
 }
 
 .faq-header {
@@ -682,7 +722,11 @@ p.faq {
   height: inherit;
   width: inherit;
 }
-
+.content > p {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 .pic-container,
 .pic,
 .pic1 .container {
