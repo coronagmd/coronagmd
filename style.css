@@ -377,8 +377,11 @@ img {
 .home-prices {
   /* width: 100%; */
   position: fixed;
-  bottom: 4rem;
+  bottom: 40px;
   left: 70%;
+}
+.home-footer {
+  display: none !important;
 }
 .Price-Breakdown {
   max-width: 400px;
@@ -1356,6 +1359,45 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .home-footer {
+    display: block !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+  }
+
+  .home-prices {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-top-head {
+    max-width: 100%;
+  }
+  .collapsible,
+  .content {
+    max-width: 100%;
+  }
+  .home-fixed-title {
+    position: relative;
+    left: auto;
+    top: auto;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .home-top-head {
+    margin: 0 auto;
+  }
+  .home-prices {
+    position: relative;
+    left: auto;
+    top: auto;
+    bottom: auto;
+  }
+  .collapsible,
+  .content {
+    margin: 0 auto;
+  }
   .faq-puppy-book {
     width: 40%;
   }
@@ -1532,6 +1574,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .collapsible-img {
+    max-width: 100%;
+  }
   .faq-puppy-book {
     width: 80%;
   }
@@ -3550,10 +3595,16 @@ a {
 }
 
 .image-6 {
-  width: 70%;
+  width: 300px;
 }
 
 @media screen and (max-width: 991px) {
+  .footer {
+    background-color: #1b1b1b;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
   h2 {
     font-size: 34px;
     line-height: 44px;
@@ -3791,6 +3842,12 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  .footer-list {
+    display: block;
+  }
+  .image-6 {
+    width: 70%;
+  }
   h1 {
     font-size: 60px;
     line-height: 70px;
