@@ -1393,6 +1393,7 @@ textarea.w-select {
     left: auto;
     top: auto;
     bottom: auto;
+    padding: 30px;
   }
   .collapsible,
   .content {
