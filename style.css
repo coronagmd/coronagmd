@@ -314,11 +314,33 @@ img {
   transform: translateY(-0.25em);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.home-fixed-title {
+  font-family: Cinzel, sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight: 400;
+  position: fixed;
+  top: 4rem;
+  left: 70%;
+}
+.home-top-head {
+  border-top: 4px solid var(--dark-blue);
+  max-width: 60%;
+  text-align: center;
+  background-color: var(--light-grey);
+  margin-bottom: -80px;
+}
+.home-top-head > p {
+  padding-top: 20px;
+}
 .home-headline {
   font-family: Cinzel, sans-serif;
   font-size: 40px;
   color: #000;
   font-weight: 400;
+}
+.home-title {
+  color: #000;
 }
 .home-follow {
   margin-top: 50px;
@@ -351,6 +373,34 @@ img {
   padding-bottom: 40px;
   width: 70%;
   text-align: center;
+}
+.home-prices {
+  /* width: 100%; */
+  position: fixed;
+  bottom: 4rem;
+  left: 70%;
+}
+.Price-Breakdown {
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 3%;
+}
+.Price-Breakdown > ul {
+  padding: 0;
+  margin: 0;
+}
+.pricebreakdown {
+  display: flex;
+  justify-content: space-between;
+}
+.pricebreakdown > p {
+  padding-bottom: 0;
+}
+.price-line {
+  border-top: black 2px solid;
+}
+.home-go-home-details {
+  font-size: 12px;
 }
 .home-section {
   width: 80%;
@@ -580,6 +630,11 @@ p.faq {
   font-size: 20px;
   text-align: left;
 }
+.faq-prices {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .Bernedoodle-colors {
   text-align: left;
@@ -682,6 +737,12 @@ p.faq {
 .temporary-spot-img {
   width: 240px;
 }
+.home-flex {
+  position: relative;
+}
+.home-absolute {
+  /* position: absolute; */
+}
 .container {
   width: 15rem;
   height: 20rem;
@@ -691,32 +752,27 @@ p.faq {
 
 .collapsible {
   font-family: Raleway, sans-serif;
+  font-weight: 400;
+  max-width: 60%;
   background-color: var(--dark-blue);
   color: white;
-  cursor: pointer;
   padding: 18px;
-  width: 100%;
   border: #fff 2px solid;
   text-align: center;
   outline: none;
   font-size: 25px;
   line-height: 1;
-}
-
-.active,
-.collapsible:hover {
-  background-color: var(--light-grey);
-  color: #000;
+  margin-top: 140px;
 }
 
 .content {
   padding: 0 18px;
-  display: none;
+  max-width: 60%;
   overflow: hidden;
   background-color: #f1f1f1;
 }
 .collapsible-img {
-  max-width: 400px;
+  max-width: 200px;
 }
 .pic-container {
   height: inherit;
@@ -2699,7 +2755,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 48px;
 }
 
@@ -2879,12 +2935,12 @@ a {
 .hero {
   z-index: 999999;
   background-color: #fff;
-  border: 1px #000;
+  border-bottom: 14px #000;
   width: 100%;
   height: auto;
   padding: 0 10vw;
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   overflow: hidden;
@@ -3225,6 +3281,7 @@ a {
 }
 .overflow {
   overflow: hidden;
+  padding-bottom: 20px;
 }
 .feature-wrap {
   border: 1px #000;
