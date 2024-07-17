@@ -325,7 +325,7 @@ img {
 }
 .home-top-head {
   border-top: 4px solid var(--dark-blue);
-  max-width: 60%;
+  max-width: 65%;
   text-align: center;
   background-color: var(--light-grey);
   margin-bottom: -80px;
@@ -614,6 +614,45 @@ img {
   background-image: url('images/puppies/purple.jpg');
 }
 
+/* pictures for purple */
+
+.purple-one {
+  background-image: url('images/puppies/newpurple3.jpg');
+}
+.purple-two {
+  background-image: url('images/puppies/pup/purple.jpg');
+}
+.purple-three {
+  background-image: url('images/puppies/r.jpg');
+}
+.purple-four {
+  background-image: url('images/puppies/misspurple.jpg');
+}
+.purple-five {
+  background-image: url('images/puppies/newpurple.jpg');
+}
+.purple-six {
+  background-image: url('images/puppies/newpurple2.jpg');
+}
+.purple-seven {
+  background-image: url('images/puppies/purple.jpg');
+}
+/* .purple-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.purple-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.purple-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.purple-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.purple-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
 .faq-header {
   text-align: left;
   font-family: Raleway, sans-serif;
@@ -756,7 +795,7 @@ p.faq {
 .collapsible {
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  max-width: 60%;
+  max-width: 65%;
   background-color: var(--dark-blue);
   color: white;
   padding: 18px;
@@ -770,12 +809,12 @@ p.faq {
 
 .content {
   padding: 0 18px;
-  max-width: 60%;
+  max-width: 65%;
   overflow: hidden;
   background-color: #f1f1f1;
 }
 .collapsible-img {
-  max-width: 200px;
+  max-width: 250px;
 }
 .pic-container {
   height: inherit;
