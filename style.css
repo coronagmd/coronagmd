@@ -321,13 +321,16 @@ img {
   font-weight: 400;
   position: fixed;
   top: 4rem;
-  left: 70%;
+  left: 82%;
 }
 .home-top-head {
   border-top: 4px solid var(--dark-blue);
-  max-width: 65%;
+  max-width: 80%;
   text-align: center;
-  background-color: var(--light-grey);
+  /* background-color: var(--light-grey); */
+  background-image: url(images/puppies/newhero.jpg);
+  padding-bottom: 250px;
+  background-size: cover;
   margin-bottom: -80px;
 }
 .home-top-head > p {
@@ -378,7 +381,8 @@ img {
   /* width: 100%; */
   position: fixed;
   bottom: 40px;
-  left: 70%;
+  left: 82%;
+  max-width: 250px;
 }
 .home-footer {
   display: none !important;
@@ -404,6 +408,7 @@ img {
 }
 .home-go-home-details {
   font-size: 12px;
+  margin-top: 0;
 }
 .home-section {
   width: 80%;
@@ -795,7 +800,7 @@ p.faq {
 .collapsible {
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  max-width: 65%;
+  max-width: 80%;
   background-color: var(--dark-blue);
   color: white;
   padding: 18px;
@@ -809,7 +814,7 @@ p.faq {
 
 .content {
   padding: 0 18px;
-  max-width: 65%;
+  max-width: 80%;
   overflow: hidden;
   background-color: #f1f1f1;
 }
@@ -1523,6 +1528,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+  .home-top-head {
+    background-image: url(images/puppies/newhero2.jpg);
+  }
   .gallery-head-div {
     display: none;
   }
