@@ -392,6 +392,9 @@ img {
   border: 2px solid black;
   border-radius: 3%;
 }
+.faq-price-breakdown {
+  max-width: 400px;
+}
 .Price-Breakdown > ul {
   padding: 0;
   margin: 0;
@@ -408,6 +411,10 @@ img {
 }
 .home-go-home-details {
   font-size: 12px;
+  margin-top: 0;
+}
+.faq-go-home-details {
+  font-size: 22px;
   margin-top: 0;
 }
 .home-section {
