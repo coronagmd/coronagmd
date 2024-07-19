@@ -87,12 +87,20 @@
     <div class="section wide">
       <form
         name="form"
-        action="https://formsubmit.co/coronagmdoodle@gmail.com"
+        action="https://api.web3forms.com/submit"
         method="POST"
         class="wrap waitlist-widen">
+        <input
+          type="hidden"
+          name="access_key"
+          value="3e145619-dec8-4cb7-ad6a-fe613495c22c" />
         <fieldset>
           <h4 class="personal-info">Tell us about yourself</h4>
           <div class="form-box">
+            <input
+              type="hidden"
+              name="subject"
+              value="New Submission from Website Form" />
             <label for="name">Full Name</label>
             <input
               type="text"
@@ -189,7 +197,7 @@
                 <option value="Dark Blue (Boy)">Dark Blue (Boy)</option>
                 <option value="Purple (Girl)">Purple (Girl)</option>
                 <option value="Pink (Girl)">Pink (Girl)</option>
-                <option value="Puppy D">No preference</option>
+                <option value="no-preference">No preference</option>
               </select></label
             >
           </div>
@@ -209,9 +217,8 @@
         <br />
         <input
           type="hidden"
-          name="_next"
+          name="redirect"
           value="https://coronagmdoodle.com/thanks" />
-        <input type="hidden" name="_captcha" value="false" />
         <input
           class="button w-button"
           id="submitBtn"
