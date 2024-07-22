@@ -402,6 +402,7 @@ img {
 .pricebreakdown {
   display: flex;
   justify-content: space-between;
+  /* margin: -5px; */
 }
 .pricebreakdown > p {
   padding-bottom: 0;
@@ -409,9 +410,20 @@ img {
 .price-line {
   border-top: black 2px solid;
 }
+.strike {
+  text-decoration: line-through;
+
+  margin-bottom: -30px;
+}
+.fw-medium {
+  margin-top: -20px;
+  margin-bottom: 0;
+}
 .home-go-home-details {
   font-size: 12px;
   margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 .faq-go-home-details {
   font-size: 22px;
@@ -1446,9 +1458,8 @@ textarea.w-select {
     bottom: auto;
     padding: 30px;
   }
-  .collapsible,
-  .content {
-    margin: 0 auto;
+  .collapsible {
+    margin-top: 80px;
   }
   .faq-puppy-book {
     width: 40%;
