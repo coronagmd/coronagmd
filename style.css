@@ -662,9 +662,9 @@ img {
   background-image: url('images/puppies/purple.jpg');
 }
 .purple-eight {
-  background-image: url('images/puppies/new-litter.jpg');
+  background-image: url('images/puppies/purple1.jpg');
 }
-.purple-nine {
+/* .purple-nine {
   background-image: url('images/puppies/b.jpg');
 }
 .purple-ten {
@@ -675,7 +675,7 @@ img {
 }
 .purple-twelve {
   background-image: url('images/puppies/purple.jpg');
-}
+} */
 
 /* pictures for pink */
 .pink-one {
@@ -761,7 +761,7 @@ img {
   background-image: url('images/puppies/beige3.jpg');
 }
 .beige-three {
-  background-image: url('images/puppies/mrbeige.jpg');
+  background-image: url('images/puppies/newbeige.jpg');
 }
 .beige-four {
   background-image: url('images/puppies/beige4.jpg');
@@ -910,7 +910,7 @@ img {
   background-image: url('images/puppies/l.jpg');
 }
 .grey-two {
-  background-image: url('images/puppies/pup/grey.jpg');
+  background-image: url('images/puppies/grey5.jpg');
 }
 .grey-three {
   background-image: url('images/puppies/mrbeige.jpg');
@@ -955,7 +955,7 @@ img {
   background-image: url('images/puppies/pup/light-blue2.jpg');
 }
 .lightblue-four {
-  background-image: url('images/puppies/mrlightblue.jpeg');
+  background-image: url('images/puppies/lightblue1.jpg');
 }
 /*.lightblue-five {
   background-image: url('images/puppies/lightblue3.jpg');
