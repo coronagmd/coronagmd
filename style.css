@@ -538,17 +538,19 @@ img {
   min-width: 360px;
   /* carousel item should have defined height: */
   height: 540px;
-
+  color: transparent;
+  font-size: 0;
   border-radius: 0.4em;
   background-position: center;
   background-size: cover;
-  opacity: 0.85;
+  /* opacity: 0.85; */
   transition: 300ms ease;
 }
 
 .carousel--item:hover {
   opacity: 1;
-  scale: 1.01;
+  /* scale: 1.01; */
+  scale: 1.1;
   transform-origin: bottom;
 }
 
@@ -872,7 +874,7 @@ img {
   background-image: url('images/puppies/q.jpg');
 }
 .lightgreen-two {
-  background-image: url('images/puppies/pup/light-green.jpg');
+  background-image: url('images/puppies/light-green1.jpg');
 }
 .lightgreen-three {
   background-image: url('images/puppies/mrlightgreen.jpg');
@@ -1148,9 +1150,10 @@ p.faq {
 .temporary-spot-img {
   width: 240px;
 }
-.center-btn {
+.off-center-btn {
   text-align: center;
   margin: 60px !important;
+  margin-left: -90px !important;
 }
 .home-flex {
   position: relative;
@@ -1427,13 +1430,13 @@ fieldset {
   padding: 0;
 }
 
-button,
+/* button,
 [type='button'],
 [type='reset'] {
   cursor: pointer;
   -webkit-appearance: button;
   border: 0;
-}
+} */
 
 .w-form {
   margin: 0 0 15px;
@@ -1534,7 +1537,7 @@ textarea.w-select {
   display: inline-block;
 }
 
-.w-radio {
+/* .w-radio {
   margin-bottom: 5px;
   padding-left: 20px;
   display: block;
@@ -1664,7 +1667,7 @@ textarea.w-select {
 
 .w-icon-file-upload-uploading {
   height: 20px;
-}
+} */
 
 .w-container {
   max-width: 940px;
@@ -1771,6 +1774,10 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .off-center-btn {
+    margin: 0 auto !important;
+    margin-top: 60px !important;
+  }
   .home-footer {
     display: block !important;
     justify-content: center !important;
