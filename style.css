@@ -1148,6 +1148,10 @@ p.faq {
 .temporary-spot-img {
   width: 240px;
 }
+.center-btn {
+  text-align: center;
+  margin: 60px !important;
+}
 .home-flex {
   position: relative;
 }
