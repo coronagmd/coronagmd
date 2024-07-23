@@ -661,7 +661,7 @@ img {
 .purple-seven {
   background-image: url('images/puppies/purple.jpg');
 }
-/* .purple-eight {
+.purple-eight {
   background-image: url('images/puppies/new-litter.jpg');
 }
 .purple-nine {
@@ -674,6 +674,351 @@ img {
   background-image: url('images/puppies/puppy-natalyn.jpg');
 }
 .purple-twelve {
+  background-image: url('images/puppies/purple.jpg');
+}
+
+/* pictures for pink */
+.pink-one {
+  background-image: url('images/puppies/pinkgirl.jpg');
+}
+.pink-two {
+  background-image: url('images/puppies/pink5.jpg');
+}
+.pink-three {
+  background-image: url('images/puppies/b.jpg');
+}
+.pink-four {
+  background-image: url('images/puppies/misspink.jpeg');
+}
+.pink-five {
+  background-image: url('images/puppies/pink2.jpeg');
+}
+.pink-six {
+  background-image: url('images/puppies/pink3.jpg');
+}
+/* .pink-seven {
+  background-image: url('images/puppies/pink.jpg');
+}
+.pink-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.pink-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.pink-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.pink-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.pink-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for dk green */
+.green-one {
+  background-image: url('images/puppies/drkgreen.jpg');
+}
+.green-two {
+  background-image: url('images/puppies/dark-green2.jpg');
+}
+.green-three {
+  background-image: url('images/puppies/s.jpg');
+}
+.green-four {
+  background-image: url('images/puppies/newdrkgreen.jpg');
+}
+.green-five {
+  background-image: url('images/puppies/newdrkgreen2.jpg');
+}
+.green-six {
+  background-image: url('images/puppies/d.jpg');
+}
+.green-seven {
+  background-image: url('images/puppies/dkgreen3.jpg');
+}
+/* .green-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.green-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.green-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.green-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.green-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for beige */
+.beige-one {
+  background-image: url('images/puppies/p.jpg');
+}
+.beige-two {
+  background-image: url('images/puppies/beige3.jpg');
+}
+.beige-three {
+  background-image: url('images/puppies/mrbeige.jpg');
+}
+.beige-four {
+  background-image: url('images/puppies/beige4.jpg');
+}
+.beige-five {
+  background-image: url('images/puppies/beige6.jpg');
+}
+/* .beige-six {
+  background-image: url('images/puppies/d.jpg');
+}
+.beige-seven {
+  background-image: url('images/puppies/dkbeige3.jpg');
+} */
+/* .beige-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.beige-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.beige-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.beige-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.beige-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for red */
+.red-one {
+  background-image: url('images/puppies/big-red.jpg');
+}
+.red-two {
+  background-image: url('images/puppies/red2.jpg');
+}
+.red-three {
+  background-image: url('images/puppies/f.jpg');
+}
+.red-four {
+  background-image: url('images/puppies/mrred.jpg');
+}
+.red-five {
+  background-image: url('images/puppies/e.jpg');
+}
+.red-six {
+  background-image: url('images/puppies/red4.jpg');
+}
+/* .red-seven {
+  background-image: url('images/puppies/dkred3.jpg');
+} */
+/* .red-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.red-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.red-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.red-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.red-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for orange */
+.orange-one {
+  background-image: url('images/puppies/h.jpg');
+}
+.orange-two {
+  background-image: url('images/puppies/pup/orange.jpg');
+}
+.orange-three {
+  background-image: url('images/puppies/orange3.jpeg');
+}
+.orange-four {
+  background-image: url('images/puppies/mrorange.jpg');
+}
+.orange-five {
+  background-image: url('images/puppies/orange2.jpeg');
+}
+/*.orange-six {
+  background-image: url('images/puppies/orange4.jpg');
+}
+ .orange-seven {
+  background-image: url('images/puppies/dkorange3.jpg');
+} */
+/* .orange-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.orange-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.orange-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.orange-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.orange-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for light green */
+.lightgreen-one {
+  background-image: url('images/puppies/q.jpg');
+}
+.lightgreen-two {
+  background-image: url('images/puppies/pup/light-green.jpg');
+}
+.lightgreen-three {
+  background-image: url('images/puppies/mrlightgreen.jpg');
+}
+.lightgreen-four {
+  background-image: url('images/puppies/lightgreen4.jpg');
+}
+.lightgreen-five {
+  background-image: url('images/puppies/lightgreen3.jpg');
+}
+.lightgreen-six {
+  background-image: url('images/puppies/mrlightblue.jpeg');
+}
+/* .lightgreen-seven {
+  background-image: url('images/puppies/dklightgreen3.jpg');
+} */
+/* .lightgreen-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.lightgreen-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.lightgreen-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.lightgreen-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.lightgreen-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for grey */
+.grey-one {
+  background-image: url('images/puppies/l.jpg');
+}
+.grey-two {
+  background-image: url('images/puppies/pup/grey.jpg');
+}
+.grey-three {
+  background-image: url('images/puppies/mrbeige.jpg');
+}
+.grey-four {
+  background-image: url('images/puppies/grey4.jpg');
+}
+.grey-five {
+  background-image: url('images/puppies/grey3.jpg');
+}
+.grey-six {
+  background-image: url('images/puppies/grey1.jpg');
+}
+.grey-seven {
+  background-image: url('images/puppies/grey2.jpg');
+}
+
+/* .grey-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.grey-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.grey-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.grey-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.grey-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for light blue */
+.lightblue-one {
+  background-image: url('images/puppies/lightblue.jpg');
+}
+.lightblue-two {
+  background-image: url('images/puppies/pup/light-blue.jpg');
+}
+.lightblue-three {
+  background-image: url('images/puppies/pup/light-blue2.jpg');
+}
+.lightblue-four {
+  background-image: url('images/puppies/mrlightblue.jpeg');
+}
+/*.lightblue-five {
+  background-image: url('images/puppies/lightblue3.jpg');
+}
+.lightblue-six {
+  background-image: url('images/puppies/lightblue1.jpg');
+}
+.lightblue-seven {
+  background-image: url('images/puppies/lightblue2.jpg');
+}
+
+ .lightblue-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.lightblue-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.lightblue-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.lightblue-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.lightblue-twelve {
+  background-image: url('images/puppies/purple.jpg');
+} */
+
+/* pictures for dark blue */
+.drkblue-one {
+  background-image: url('images/puppies/o.jpg');
+}
+.drkblue-two {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.drkblue-three {
+  background-image: url('images/puppies/mrdarkblue.jpeg');
+}
+.drkblue-four {
+  background-image: url('images/puppies/mrdarkblue2.jpg');
+}
+.drkblue-five {
+  background-image: url('images/puppies/newdrkblue.jpg');
+}
+/*.drkblue-six {
+  background-image: url('images/puppies/drkblue1.jpg');
+}
+.drkblue-seven {
+  background-image: url('images/puppies/drkblue2.jpg');
+}
+
+ .drkblue-eight {
+  background-image: url('images/puppies/new-litter.jpg');
+}
+.drkblue-nine {
+  background-image: url('images/puppies/b.jpg');
+}
+.drkblue-ten {
+  background-image: url('images/puppies/pup/dark-blue.jpg');
+}
+.drkblue-eleven {
+  background-image: url('images/puppies/puppy-natalyn.jpg');
+}
+.drkblue-twelve {
   background-image: url('images/puppies/purple.jpg');
 } */
 
