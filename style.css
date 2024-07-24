@@ -544,15 +544,21 @@ img {
   background-position: center;
   background-size: cover;
   /* opacity: 0.85; */
-  transition: 300ms ease;
+  /* transition: 300ms ease; */
 }
 
 .carousel--item:hover {
-  opacity: 1;
-  /* scale: 1.01; */
-  scale: 1.1;
-  transform-origin: bottom;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
+/* .carousel--item:hover {
+  opacity: 1;
+  scale: 1.01;
+   scale: 1.1;
+  transform-origin: bottom;
+}  */
 
 .carousel--item:focus-visible {
   opacity: 1;
@@ -840,28 +846,6 @@ img {
 .drkblue-five {
   background-image: url('images/puppies/pup/dark-blue.jpg');
 }
-/*.drkblue-six {
-  background-image: url('images/puppies/drkblue1.jpg');
-}
-.drkblue-seven {
-  background-image: url('images/puppies/drkblue2.jpg');
-}
-
- .drkblue-eight {
-  background-image: url('images/puppies/new-litter.jpg');
-}
-.drkblue-nine {
-  background-image: url('images/puppies/b.jpg');
-}
-.drkblue-ten {
-  background-image: url('images/puppies/pup/dark-blue.jpg');
-}
-.drkblue-eleven {
-  background-image: url('images/puppies/puppy-natalyn.jpg');
-}
-.drkblue-twelve {
-  background-image: url('images/puppies/purple.jpg');
-} */
 
 .faq-header {
   text-align: left;
