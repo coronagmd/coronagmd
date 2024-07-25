@@ -322,6 +322,7 @@ img {
   position: fixed;
   top: 4rem;
   left: 82%;
+  z-index: -999;
 }
 .home-top-head {
   border-top: 4px solid var(--dark-blue);
@@ -377,12 +378,16 @@ img {
   width: 70%;
   text-align: center;
 }
+.price-ready {
+  text-align: center;
+}
 .home-prices {
   /* width: 100%; */
   position: fixed;
   bottom: 40px;
   left: 82%;
   max-width: 250px;
+  z-index: -999;
 }
 .home-footer {
   display: none !important;
@@ -3553,7 +3558,7 @@ a {
 .hero-image {
   height: 85vh;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   right: 3vw;
 }
 
