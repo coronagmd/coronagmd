@@ -324,15 +324,23 @@ img {
   left: 82%;
   z-index: -999;
 }
+.overHero {
+  position: absolute;
+  top: 0;
+  background-color: rgba(108, 70, 78, 0.2);
+  width: 100%;
+}
 .home-top-head {
   border-top: 4px solid var(--dark-blue);
+  position: relative;
   max-width: 80%;
   text-align: center;
   /* background-color: var(--light-grey); */
-  background-image: url(images/puppies/newhero.jpg);
+  /* background-image: url(images/puppies/newhero.jpg); */
   padding-bottom: 250px;
-  background-size: cover;
+  /* background-size: cover; */
   margin-bottom: -80px;
+  height: 650px;
 }
 .home-top-head > p {
   padding-top: 20px;
@@ -938,6 +946,7 @@ p.faq {
   line-height: 1;
   font-size: 8vh;
   font-weight: 400;
+  color: #000;
 }
 .litters-coming-subtitle {
   color: #000;
