@@ -580,6 +580,26 @@ img {
   outline: 2px solid var(--eggplant);
   outline-offset: 2px;
 }
+.swiper {
+  display: block;
+  font-size: 20px;
+  padding-left: 100px;
+  margin-top: 20px;
+  position: relative;
+  animation: arrowPoint 2s infinite;
+}
+@keyframes arrowPoint {
+  0% {
+    left: 0px;
+  }
+
+  75% {
+    left: 20px;
+  }
+  100% {
+    left: 0px;
+  }
+}
 
 /* pictures on maggie page */
 .zero {
