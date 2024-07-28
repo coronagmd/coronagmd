@@ -337,10 +337,10 @@ img {
   text-align: center;
   /* background-color: var(--light-grey); */
   /* background-image: url(images/puppies/newhero.jpg); */
-  padding-bottom: 250px;
+  /* padding-bottom: 250px; */
   /* background-size: cover; */
   margin-bottom: -80px;
-  height: 650px;
+  /* height: 650px; */
 }
 .home-top-head > p {
   padding-top: 20px;
@@ -1739,8 +1739,8 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
-  .home-top-head {
-    background-image: url(images/puppies/newhero2.jpg);
+  .home-top-head > img {
+    src: url(images/puppies/newhero2.jpg);
   }
   .gallery-head-div {
     display: none;
@@ -1833,6 +1833,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .overHero {
+    position: relative;
+  }
   .collapsible-img {
     max-width: 100%;
   }
