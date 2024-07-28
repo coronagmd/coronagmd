@@ -1835,6 +1835,7 @@ textarea.w-select {
 @media screen and (max-width: 479px) {
   .overHero {
     position: relative;
+    background-color: white;
   }
   .collapsible-img {
     max-width: 100%;
