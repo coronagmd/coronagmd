@@ -1646,6 +1646,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .sold {
+    margin-left: 10px;
+  }
   .off-center-btn {
     margin: 0 auto !important;
     margin-top: 60px !important;
