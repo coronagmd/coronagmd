@@ -433,13 +433,14 @@ img {
 }
 
 .sold {
-  color: red;
+  color: var(--eggplant);
   font-weight: bolder;
-  font-size: 40px;
-  text-align: center;
-  transform: translate(-150px, -50px) rotate(-20deg);
-  padding: 0;
-  margin: 0;
+  font-size: 50px;
+  background-color: var(--dim-grey);
+  max-width: 300px;
+  transform: rotate(-20deg);
+  padding: 20px;
+  margin-left: 400px;
 }
 
 .fw-medium {
