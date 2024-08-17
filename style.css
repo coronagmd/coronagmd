@@ -423,6 +423,10 @@ img {
 .pricebreakdown > p {
   padding-bottom: 0;
 }
+.bigger {
+  font-size: 30px;
+  padding-top: 15px;
+}
 .price-line {
   border-top: black 2px solid;
 }
