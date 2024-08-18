@@ -417,7 +417,7 @@ img {
 }
 .pricebreakdown {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* margin: -5px; */
 }
 .pricebreakdown > p {
@@ -425,7 +425,6 @@ img {
 }
 .bigger {
   font-size: 30px;
-  padding-top: 15px;
 }
 .price-line {
   border-top: black 2px solid;
@@ -458,7 +457,7 @@ img {
   text-align: center;
 }
 .faq-go-home-details {
-  font-size: 22px;
+  font-size: 14px;
   margin-top: 0;
 }
 .home-section {
