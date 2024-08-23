@@ -438,12 +438,13 @@ img {
 .sold {
   color: var(--eggplant);
   font-weight: bolder;
-  font-size: 50px;
-  background-color: var(--dim-grey);
-  max-width: 300px;
+  font-size: 30px;
+  background-color: rgba(169, 169, 169, 0.8);
+  max-width: 350px;
   transform: rotate(-20deg);
   padding: 20px;
   margin-left: 400px;
+  text-align: center;
 }
 
 .fw-medium {
