@@ -847,24 +847,39 @@ img {
 
 /* pictures for grey */
 .grey-one {
-  background-image: url('images/puppies/mrbeige.jpg');
+  background-image: url('images/puppies/grey.jpg');
 }
 .grey-two {
-  background-image: url('images/puppies/grey1.jpg');
+  background-image: url('images/puppies/grey6.jpg');
 }
 .grey-three {
-  background-image: url('images/puppies/grey2.jpg');
+  background-image: url('images/puppies/grey7.jpg');
 }
 .grey-four {
-  background-image: url('images/puppies/grey4.jpg');
+  background-image: url('images/puppies/grey8.jpg');
 }
 .grey-five {
-  background-image: url('images/puppies/grey3.jpg');
+  background-image: url('images/puppies/grey9.jpg');
 }
 .grey-six {
-  background-image: url('images/puppies/l.jpg');
+  background-image: url('images/puppies/mrbeige.jpg');
 }
 .grey-seven {
+  background-image: url('images/puppies/grey1.jpg');
+}
+.grey-eight {
+  background-image: url('images/puppies/grey2.jpg');
+}
+.grey-nine {
+  background-image: url('images/puppies/grey4.jpg');
+}
+.grey-ten {
+  background-image: url('images/puppies/grey3.jpg');
+}
+.grey-eleven {
+  background-image: url('images/puppies/l.jpg');
+}
+.grey-twelve {
   background-image: url('images/puppies/grey5.jpg');
 }
 
